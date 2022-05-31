@@ -50,7 +50,10 @@
 
 
 ## Deploy
+
+[![deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Akshayss47/TovinoBotV3)
 You can deploy this bot anywhere.
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)</br>
 
