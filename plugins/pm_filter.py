@@ -431,14 +431,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             msg1 = await query.message.reply(
                 f'<b> Hai 👋 {query.from_user.mention} </b>😍\n\n<b>📫 Your File is Ready</b>\n\n'           
-                f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[DK_BOTx] {title}</code>\n\n'              
+                f'<b>📂 Fɪʟᴇ Nᴀᴍᴇ</b> : <code>[@CuFilms] {title}</code>\n\n'              
                 f'<b>⚙️ Fɪʟᴇ Sɪᴢᴇ</b> : <b>{size}</b>',
                 True,
                 'html',
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton('📥 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖫𝗂𝗇𝗄 📥 ', url = msg.link)
+                            InlineKeyboardButton('📥 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 File 📥 ', url = msg.link)
                         ],                       
                         [
                             InlineKeyboardButton("⚠️ 𝖢𝖺𝗇'𝗍 𝖠𝖼𝖼𝖾𝗌𝗌 ❓ 𝖢𝗅𝗂𝖼𝗄 𝖧𝖾𝗋𝖾 ⚠️", url=f'https://t.me/+dWdRGeAEhOM0NGI9')
@@ -566,8 +566,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about_menu":
         buttons = [[
-        InlineKeyboardButton('ᴅᴋ ʙᴏᴛx', url='https://t.me/dk_botx'),
-        InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/dkbotxchats'),
+        InlineKeyboardButton('ᴅᴋ ʙᴏᴛx', url='https://t.me/CuFilms'),
+        InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', url='https://t.me/CuFilms'),
         InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
