@@ -51,7 +51,7 @@
 
 ## Deploy
 
-[![deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Akshayss47/TovinoBotV3)
+[![deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Akshayss47/pooja-Hegde-autofilterbotV3-cxnmovies)
 You can deploy this bot anywhere.
 
 
